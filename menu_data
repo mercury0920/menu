@@ -1,0 +1,39 @@
+const menuData = [
+    // 示例菜品 - 你可以复制多行来添加更多
+    {
+        name: "宫保鸡丁",
+        price: 38,
+        desc: "新鲜鸡胸肉、花生米、干辣椒炒制，酸甜辣口",
+        img: "https://images.unsplash.com/photo-1626082916497-88c2e0cbbd94?ixlib=rb-4.0.3&auto=format&fit=crop&q=80",
+        category: "hot"
+    },
+    {
+        name: "麻婆豆腐",
+        price: 28,
+        desc: "嫩豆腐配牛肉末，麻辣鲜香，经典川菜",
+        img: "https://images.unsplash.com/photo-1626082919545-6f9d9e9e6d2e?ixlib=rb-4.0.3&auto=format&fit=crop&q=80",
+        category: "hot"
+    },
+    {
+        name: "凉拌黄瓜",
+        price: 18,
+        desc: "清脆黄瓜，蒜香浓郁，开胃解腻",
+        img: "https://images.unsplash.com/photo-1604909052743-94e838986d24?ixlib=rb-4.0.3&auto=format&fit=crop&q=80",
+        category: "cold"
+    },
+    {
+        name: "番茄蛋花汤",
+        price: 15,
+        desc: "新鲜番茄与鸡蛋，鲜美清爽",
+        img: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?ixlib=rb-4.0.3&auto=format&fit=crop&q=80",
+        category: "soup"
+    },
+    {
+        name: "可口可乐",
+        price: 8,
+        desc: "冰镇可乐 330ml",
+        img: "https://images.unsplash.com/photo-1622483761023-3b82a3f3e0e3?ixlib=rb-4.0.3&auto=format&fit=crop&q=80",
+        category: "drink"
+    },
+    // 在这里继续添加你的菜品...
+];
