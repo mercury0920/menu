@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【忆江南百姓家常菜馆】电子菜单</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>【忆江南百姓家常菜馆】</h1>
+        <p class="slogan">美味从这里开始</p>
+    </header>
+
+    <main>
+        <!-- 分类导航（可根据需要增删） -->
+        <div class="categories">
+            <button class="active" data-category="all">全部</button>
+            <button data-category="hot">热菜</button>
+            <button data-category="cold">凉菜</button>
+            <button data-category="soup">汤羹</button>
+            <button data-category="drink">饮品</button>
+        </div>
+
+        <!-- 菜品列表 -->
+        <div class="menu-grid" id="menuGrid">
+            <!-- 菜品将由 JavaScript 动态生成 -->
+        </div>
+    </main>
+
+    <footer>
+        <p>欢迎光临 | 营业时间：11:00 - 21:00</p>
+        <p>地址：xxxxxxxxxxx</p>
+        <p>电话：138-0000-0000</p>
+    </footer>
+
+    <script src="menu-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
